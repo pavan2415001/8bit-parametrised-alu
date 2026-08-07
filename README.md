@@ -63,6 +63,14 @@ The testbench (`tb.v`):
 
 ---
 
+## Simulation Output
+
+![Simulation Waveform](waveform.png)
+
+The waveform confirms the 8-Bit ALU executing all operations across time, displaying operand inputs, control select line `sel[3:0]`, output result `out[7:0]`, and Carry flag `C`.
+
+---
+
 ## How to Simulate
 
 ### Using Vivado
